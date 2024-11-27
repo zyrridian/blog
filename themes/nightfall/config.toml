@@ -1,0 +1,67 @@
+[module]
+  [module.hugoVersion]
+    min = "0.114.0"
+
+[params]
+user = "zyrridian"
+sitedescription = 'Your website description'
+footerHtml = 'this is a footer'
+
+  [params.author]
+    name = "blog"
+    email = "rezkyaf246@gmail.com"
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 1
+    url = "/posts"
+  [[menu.header]]
+    name = "about"
+    weight = 0
+    url = "/about"
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/zyrridian"
+icon = "fa-brands fa-github"
+target = "_blank"
+aria = "GitHub Profile"
+
+[[params.social]]
+key = 1
+name = "itch.io"
+target = "_blank"
+url = "http://zyrridian.itch.io/"
+
+[[params.social]]
+key = 2
+name = "medium"
+target = "_blank"
+url = "https://medium.com/@zyrridian"
+
+[[params.social]]
+key = 3
+name = "linkedin"
+target = "_blank"
+url = "https://www.linkedin.com/in/rezkyaditiafauzan/"
+
+[[params.social]]
+key = 4
+name = "twitter"
+target = "_blank"
+url = "https://twitter.com/zyrridian"
+
+[[params.social]]
+key = 5
+name = "instagram"
+target = "_blank"
+url = "https://www.instagram.com/zyrridian/"
+
+[[params.social]]
+key = 6
+name = "link"
+url = "https://linktr.ee/rezkyaditiafauzan"
+icon = "fa-solid fa-link"
+target = "_blank"
